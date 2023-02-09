@@ -38,6 +38,7 @@ const SoberLiving = () => {
 
 
     <div className='SoberLiving-wrap'>
+    <Fade left>
         <div className="SoberLiving-box SoberLiving-left">
             <div className='SoberLiving-title'><br/>
                 <h1>WHAT IS SOBER LIVING?</h1>
@@ -53,20 +54,24 @@ Especially if your world on the outside includes the ongoing presence of drugs a
 Our sober living homes feature upscale furnishings and amenities, with support of round-the-clock staff to help you realize your full potential. Explore all our locations now.
                 </p>
             </div>
+    </Fade>
+    <Fade right>
         <div className="SoberLiving-box box">
             <img src={Service1} width="600px" height="350px" alt="Palm Springs Rehab Logo" loading="lazy" />
         </div>
+    </Fade>
 </div>
 
 
 
 <div className='SoberLiving-wrap'>
-    
+<Fade left>
     <div className="SoberLiving-box box">
         <img src={Service2} width="600px" height="400px" alt="Palm Springs Rehab Logo" loading="lazy" />
     </div>
+</Fade>
 
-
+<Fade right>
     <div className="SoberLiving-box SoberLiving-left">
         
             <div className='SoberLiving-title'><br/>
@@ -77,16 +82,13 @@ Our sober living homes feature upscale furnishings and amenities, with support o
 Taking part in all the exciting sights that a vibrant city like LA has to offer is a way to keep yourself busy and stay focused during your recovery.<br/> <br/>Besides the sights, attractions, and perpetually beautiful weather, Los Angeles is also a major destination city for those seeking sobriety. Among the hotbed of quality LA clinics, you are joining one of the strongest recovery communities in the country
                 </p>
     </div>
+</Fade>
 </div>
 
 
 
-<br/>
-<br/>
-
-
-
 <div className='SoberLiving-wrap'>
+<Fade left>
         <div className="SoberLiving-box SoberLiving-left">
             <div className='SoberLiving-title'>
                 <h1>BENEFITS OF 55 SILVER SOBER LIVING</h1>
@@ -102,9 +104,13 @@ Taking part in all the exciting sights that a vibrant city like LA has to offer 
                 </ul>
                 </p>
             </div>
+</Fade>
+
+<Fade right>
         <div className="SoberLiving-box box">
             <img src={Service3} width="600px" height="350px" alt="Palm Springs Rehab Logo" loading="lazy" />
         </div>
+</Fade>
 </div>
 
 
