@@ -41,38 +41,6 @@ const Navbar = () => {
 
 
 
-
-    // const [isMenu2, setisMenu2] = useState(false);
-
-
-    // const toggleClass2 = () => {
-    //     setisMenu2(isMenu === false ? true : false);
-    // };
-
-    // let boxClass2 = ["main-menu menu-right menuq1"];
-    // if(isMenu2) {
-    //     boxClass2.push('menuq2');
-    // }else{
-    //     boxClass2.push('');
-    // }
-
-    // const [isMenuSubMenu2, setMenuSubMenu2] = useState(false);
-      
-    // const toggleSubmenu2 = () => {
-    //   setMenuSubMenu2(isMenuSubMenu === false ? true : false);
-    // };
-    
-    // let boxClassSubMenu2 = ["sub__menus"];
-    // if(isMenuSubMenu2) {
-    //     boxClassSubMenu2.push('sub__menus__Active');
-    // }else {
-    //     boxClassSubMenu2.push('');
-    // }
-
-
-
-
-
     return (
         <div name='top' className='navbar'>
             <div className="navbar-container">
@@ -100,17 +68,6 @@ const Navbar = () => {
 
                     <li><Link to='/mission'>ABOUT US</Link> </li>
 
-
-
-                    {/* <li onClick={toggleSubmenu} className="menu-item sub__menus__arrows" > <Link to="/mission"> about us <FiChevronDown /> </Link>
-                    <ul className={boxClassSubMenu.join(' ')} id='submenu-item'> 
-                            <li> <NavLink onClick={toggleClass} activeClassName='is-active'  to={`/mission`}> Our Mission</NavLink> </li>
-                            <li> <NavLink onClick={toggleClass} activeClassName='is-active'  to={`/team`}> Our Team</NavLink> </li>
-                            <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/`}> Testimonials </NavLink> </li>
-                            <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/`}> FAQ </NavLink> </li>
-
-                        </ul>
-                    </li> */}
 
                     <li><Link to='/contact'>Contact</Link></li>
                 </ul>
