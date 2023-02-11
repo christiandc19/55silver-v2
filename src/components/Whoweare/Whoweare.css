@@ -17,7 +17,6 @@
   
   .SoberLiving-box {
       height: auto;
-      width: 400px;
       display: inline-block;
       margin: 1rem;
   }
@@ -49,7 +48,7 @@
 
 @media screen and (max-width:500px) {
 
-.hide{
+.hide img{
     display: none;
 }
 
