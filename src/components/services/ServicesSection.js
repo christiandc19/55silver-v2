@@ -122,7 +122,7 @@ const ServicesSection = () => {
 
             <div className='group'>
             <Fade bottom>
-                <img src={Group} width="500px" height="320px" alt="Company Team" loading="lazy" />
+                <img src={Group} alt="Company Team" loading="lazy" />
             </Fade>
             </div>
 

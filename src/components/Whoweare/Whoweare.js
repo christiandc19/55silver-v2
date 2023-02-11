@@ -39,7 +39,7 @@ const Whoweare = () => {
 
         <Fade right>
         <div className="SoberLiving-box box hide">
-            <img src={WhatWeDoImg1} width="560px" height="350px" alt="Palm Springs Rehab Logo" loading="lazy" />
+            <img src={WhatWeDoImg1} alt="Sover Living" loading="lazy" />
         </div>
         </Fade>
 </div>
