@@ -60,7 +60,7 @@
 
 .footer .col-container {
     display: grid;
-    grid-template-columns: 1fr 1fr 2fr;
+    grid-template-columns: 1fr 1fr 1fr;
     padding: 1rem;
     width: 100%;
 }
@@ -73,7 +73,6 @@
 
 .footer p {
     font-family: 'Montserrat', sans-serif;
-    margin: .5rem 0;
     color: white;
     font-weight: 500;
     text-align: left;
@@ -119,9 +118,13 @@
     font-size: 3rem;
 }
 
+.copyright {
+    margin: 2rem;
+}
 
 .copyright p {
     color: white;
+    text-align: center;
 }
 
 @media screen and (max-width: 940px) {
