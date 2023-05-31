@@ -77,7 +77,7 @@ const Navbar = () => {
                 </div>
 
                 <div className='hide'>
-                <p><a href="tel:3235792196"> CONTACT US <span> <AiOutlinePhone /></span></a></p>
+                <p><a href="tel:3236433171"> CONTACT US <span> <AiOutlinePhone /></span></a></p>
                 </div>
 
 

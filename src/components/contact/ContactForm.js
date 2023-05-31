@@ -38,7 +38,9 @@ const ContactForm = () => {
     
     <div class="get_form_inner2">
             <h2>CALL US</h2>
-            <p><AiOutlinePhone /><a href="tel:3235792196"> +1 (323) 643-3171</a></p>
+            <p><AiOutlinePhone /><a href="tel:3235792196"> +1 (310) 526-7505</a></p>
+            <p><AiOutlinePhone /><a href="tel:3236433171"> +1 (323) 643-3171</a></p>
+
     </div>
 
     <div class="get_form_inner2">
