@@ -7,7 +7,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    background: rgba(29, 28, 29, 0.507);
+    background: rgba(20, 20, 20, 0.596);
   }
   
   .SoberLiving:before {
@@ -17,6 +17,10 @@
     height: 100%;
     width: 100%;
     z-index: -1;
+  }
+
+  .SoberLiving-wrap {
+    padding: 3rem 0;
   }
 
 .SoberLiving .SoberLiving-content {
@@ -46,7 +50,7 @@
 
 .SoberLiving-box img {
      height: auto;
-     max-width: 100%;
+     width: 100%;
      border-radius: 20px;
      padding: 10px;
 }

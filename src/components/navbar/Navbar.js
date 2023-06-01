@@ -1,9 +1,9 @@
 import React, { useState } from 'react'
 import { FaBars, FaTimes } from 'react-icons/fa'
 import {NavLink, Link} from 'react-router-dom'
-import logo from '../../assets/nav-logo.png'
+import logo from '../../assets/nav-logo-bl.png'
 import {FiChevronDown } from "react-icons/fi";
-import { AiOutlinePhone } from 'react-icons/ai';
+import Topbar from '../../components/topbar/Topbar'
 
 
 import './Navbar.css'
@@ -42,12 +42,15 @@ const Navbar = () => {
 
 
     return (
+        <>
+            <Topbar />
+
         <div name='top' className='navbar'>
             <div className="navbar-container">
                 
                  <div className="navbar-logo">
                     <Link to='/'>
-                    <img src={logo} width="200px" height="80px" alt="55 Silver Logo" loading="lazy"/>
+                    <img src={logo} width="170px" height="70px" alt="55 Silver Logo" loading="lazy"/>
                     </Link>
                 </div>
 
@@ -76,13 +79,14 @@ const Navbar = () => {
                     {!nav ? (<FaBars className='icon' />) : (<FaTimes className='icon' />)}
                 </div>
 
-                <div className='hide'>
+                {/* <div className='hide'>
                 <p><a href="tel:3236433171"> CONTACT US <span> <AiOutlinePhone /></span></a></p>
-                </div>
+                </div> */}
 
 
             </div>
         </div>
+        </>
     )
 }
 

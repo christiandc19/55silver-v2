@@ -10,7 +10,6 @@ import Service3 from '../../assets/treatment-3.jpg'
 
 import ContactForm from '../contact/ContactForm';
 
-import Wave from '../../assets/waves.svg'
 
 
 import { FaRegStar } from 'react-icons/fa';
@@ -23,9 +22,7 @@ const SoberLiving = () => {
 {/* -------------------------------- HERO -------------------------------------- */}
 
         <div className='SoberLiving main-menu'>
-            <div className='hero-divider'>
-                <img src={Wave} loading="lazy" alt='divider' repeat-x/>
-            </div>
+
             <div className="SoberLiving-content">
                 <Fade right>
                     <h1>SOBRIETY IN LOS ANGELES</h1>
@@ -55,6 +52,7 @@ Our sober living homes feature upscale furnishings and amenities, with support o
                 </p>
             </div>
     </Fade>
+    
     <Fade right>
         <div className="SoberLiving-box box">
             <img src={Service1} alt="Sover Living" loading="lazy" />

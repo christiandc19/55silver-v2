@@ -2,6 +2,7 @@
     width: 100%;
     position: relative;
     background: rgba(255, 255, 255, 0);
+    padding: 3rem 0;
 }
 
 .mission-section .content {
@@ -29,10 +30,7 @@
     color: var(--primary-color);
 }
 
-.mission-section .mindset {
-    text-align: center;
-    margin-top: 2rem;
-}
+
 
 .flex-right {
     display: flex;

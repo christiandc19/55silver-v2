@@ -12,7 +12,7 @@ const Footer = () => {
 
 <>
         <div className='footer'>
-            <div className="footer-container">
+            <div className="footer-container container">
                 <div className="top">
                     <div className="logo-footer">
                     <img src={logo} width="160px" height="60px" alt="Palm Springs Rehab Logo" loading="lazy"/>
