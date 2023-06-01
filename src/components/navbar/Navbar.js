@@ -50,7 +50,7 @@ const Navbar = () => {
                 
                  <div className="navbar-logo">
                     <Link to='/'>
-                    <img src={logo} width="170px" height="70px" alt="55 Silver Logo" loading="lazy"/>
+                    <img src={logo} width="150px" height="70px" alt="55 Silver Logo" loading="lazy"/>
                     </Link>
                 </div>
 
@@ -69,7 +69,7 @@ const Navbar = () => {
 
                     <li><Link to='/sober-living'>SOBER LIVING</Link> </li>
 
-                    <li><Link to='/mission'>ABOUT US</Link> </li>
+                    <li><Link to='/about'>ABOUT US</Link> </li>
 
 
                     <li><Link to='/contact'>Contact</Link></li>

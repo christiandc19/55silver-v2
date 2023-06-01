@@ -25,7 +25,9 @@
   color: rgb(255, 255, 255);
   font-size: 4rem;
   text-transform: uppercase;
-  font-family: 'Montserrat', sans-serif;}
+  font-family: 'Montserrat', sans-serif;
+  line-height: 3.7rem;
+}
 
 .hero-caption p {
   color: white;

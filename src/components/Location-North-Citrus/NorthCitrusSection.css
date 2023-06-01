@@ -11,6 +11,11 @@
     text-align: center;
 }
 
+.NorthCitrus-section-header h2 {
+  text-align: center;
+  padding: 2rem 0;
+}
+
 .NorthCitrus-section-header p {
   font-family: 'Montserrat', sans-serif;
   text-align: center;

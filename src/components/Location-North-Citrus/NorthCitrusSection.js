@@ -9,13 +9,14 @@ import './NorthCitrusSection.css'
 const NorthCitrusSection = () => {
   return (
 <>
+
 <div className="NorthCitrus-section-header container">
                 <h1>LOS ANGELES - NORTH CITRUS</h1><br/>
                 <p>Stay with us and enjoy a guided approach to treatment recovery just off Melrose Ave, only a few minutes from great restaurants in Wilshire, shopping at The Grove, hiking in the canyons, and the allure of all that Hollywood has to offer.
                 </p>
+                <h2>--- RETREAT ---</h2>
 </div>
 
-<h1 className='NorthCitrus-section-header'>--- RETREAT ---</h1>
 
               <div className='homes container'>
                   <Fade top>
@@ -51,7 +52,7 @@ const NorthCitrusSection = () => {
               </div>
 
 
-              <h1 className='NorthCitrus-section-header'>--- RELAX ---</h1>
+              <h2 className='NorthCitrus-section-header'>--- RELAX ---</h2><br/>
 
               <div className='homes container'>
                   <Fade top>
@@ -75,7 +76,7 @@ const NorthCitrusSection = () => {
 
 
 
-              <h1 className='NorthCitrus-section-header'>--- REST ---</h1>
+              <h1 className='NorthCitrus-section-header'>--- REST ---</h1><br/>
 
               <div className='homes container'>
                 <Fade top>
@@ -116,7 +117,7 @@ const NorthCitrusSection = () => {
             </div>
 
 
-              <h1 className='NorthCitrus-section-header'>--- GATHER ---</h1>
+              <h1 className='NorthCitrus-section-header'>--- GATHER ---</h1><br/>
 
               <div className='homes container'>
                 <Fade top>
@@ -140,7 +141,7 @@ const NorthCitrusSection = () => {
 
 
             
-              <h1 className='NorthCitrus-section-header'>--- CLEAN ---</h1>
+              <h1 className='NorthCitrus-section-header'>--- CLEAN ---</h1><br/>
 
               <div className='homes container'>
                 <Fade top>

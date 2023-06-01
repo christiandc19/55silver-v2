@@ -1,28 +1,90 @@
-.mission-section {
+
+.about-content {
+    padding: 3rem 0;
+}
+
+.about-flex {
+    padding: 3rem 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.about-left {
+    width: 50%;
+    margin: auto;
+    padding: 1rem;
+    text-align: left;
+}
+
+.about-left h1 {
+    font-size: 1rem;
+    color: var(--secondary-color);
+    padding: 1rem 0;
+    letter-spacing: 5px;
+}
+
+.about-left span {
+    font-size: 1.2rem;
+}
+
+
+.about-right {
+    width: 500px;
+    padding: 1rem;
+}
+
+.about-right img {
+    width: 100%;
+    border-radius: 1rem;
+}
+
+
+@media screen and (max-width: 1200px) {
+    .about-left {
+        width: 100%;
+    }
+
+    .about-left h1 {
+        text-align: center;
+    }
+
+    .about-left p {
+        text-align: left;
+    }
+
+    .about-right {
+        width: 80%;
+    }
+}
+
+
+/* .about-section {
     width: 100%;
     position: relative;
     background: rgba(255, 255, 255, 0);
     padding: 3rem 0;
 }
 
-.mission-section .content {
+.about-section .content {
     flex-wrap: wrap;
     justify-content: center;
     width: 100%;
     text-align: center;
 }
 
-.mission-section .content p {
+.about-section .content p {
     margin: 1rem 0;
 }
 
-.mission-section p {
+.about-section p {
     font-family: 'Montserrat', sans-serif;
     text-align: center;
 }
 
 
-.mission-section .mission-header {
+.about-section .about-header {
     padding: 1rem 0;
     font-size: 2rem;
     text-align: center;
@@ -58,15 +120,15 @@
 }
 
 @media screen and (max-width: 940px) {
-    .mission-section .content {
+    .about-section .content {
         width: 100%;
     }
 
-    .mission-section h1 {
+    .about-section h1 {
         font-size: 25px;
     }
 
-    .mission-section p {
+    .about-section p {
         font-size: 15px;
     }
 
@@ -80,4 +142,4 @@
 
 
 
-
+ */
