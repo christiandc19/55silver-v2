@@ -145,7 +145,7 @@ const SoberLivingSection = () => {
       <BsCheckLg />
     </div>
     <div>
-      <p>NORTH CITRUS, LOS ANGELES</p>
+      <p>SAFE ENVIRONMENT - Many people who are new to recovery do not have a home or safe place to go when their treatment is over. Because of this, sober living can be lifesaving. </p> <br />
     </div>
     </Fade>
   </div>
@@ -157,13 +157,12 @@ const SoberLivingSection = () => {
     </div>
     <div>
       <p>
-      NORTH DETROIT, LOS ANGELES
-      </p>
+      CONSTANT SUPPORT — They live with others who share the same goal of staying sober. As a result, roommates become a source of support.
+      </p> <br />
     </div>
     </Fade>
   </div>
 
-
   <div className="checklist">
   <Fade top>
     <div className="soberLivingSection-icon">
@@ -171,38 +170,11 @@ const SoberLivingSection = () => {
     </div>
     <div>
       <p>
-      HUNTINGTON BEACH
-      </p>
+        CONTINUED TREATMENT — Going to outpatient treatment additionally helps build on lessons learned in previous treatment.
+      </p><br />
     </div>
   </Fade>
   </div>
-
-  <div className="checklist">
-  <Fade top>
-    <div className="soberLivingSection-icon">
-      <BsCheckLg />
-    </div>
-    <div>
-      <p>
-      WEST HOLLYWOOD
-      </p>
-    </div>
-  </Fade>
-  </div>
-
-  <div className="checklist">
-  <Fade top>
-    <div className="soberLivingSection-icon">
-      <BsCheckLg />
-    </div>
-    <div>
-      <p>
-      VENICE CALIFORNIA
-      </p>
-    </div>
-  </Fade>
-  </div>
-
 
     </div>
 </div>

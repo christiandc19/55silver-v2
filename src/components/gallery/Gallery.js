@@ -17,6 +17,14 @@ const Cards = () => {
   return (
     <>
 
+
+
+
+
+
+
+
+
 <div className='gallery'>
 
 

@@ -72,6 +72,9 @@
     color: rgb(253, 146, 5);
 }
 
+.soberLivingSection2-content {
+    padding: 1rem;
+}
 
 @media screen and (max-width:940px) {
     .soberLivingSection-content {
@@ -79,7 +82,7 @@
     }
 
     .soberLivingSection2-content {
-        flex-wrap: wrap-reverse
+        flex-wrap: wrap-reverse;
     }
 
     .soberLivingSection {
