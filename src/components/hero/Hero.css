@@ -21,6 +21,10 @@
 
 }
 
+.hero-caption span {
+  color: rgb(197, 136, 24);
+}
+
 .hero-caption h1 {
   color: rgb(255, 255, 255);
   font-size: 4rem;
