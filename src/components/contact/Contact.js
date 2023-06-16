@@ -18,6 +18,10 @@ const Contact = () => {
             <Fade right>
                   <p>Our Addiction and Recovery Support team is available 24 hours a day 7 Days a week. </p>
             </Fade>
+            <Fade left>
+                  <h2> +1 (310) 526-7505 </h2>
+            </Fade>
+
             </div>
      </div>
 

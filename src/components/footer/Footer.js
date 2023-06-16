@@ -2,7 +2,6 @@ import React from 'react'
 import {Link} from 'react-router-dom'
 import { BsFillArrowUpCircleFill } from 'react-icons/bs'
 import logo from '../../assets/nav-logo.png'
-import { FiFacebook, FiInstagram, FiLinkedin } from 'react-icons/fi'
 import './FooterStyles.css'
 
 import { Link as LinkRoll } from 'react-scroll'
@@ -24,7 +23,7 @@ const Footer = () => {
                 </div>
                 <div className="col-container">
 
-                    <div className="col">
+                    <div className="footer-col">
                         <h3>Navigation</h3>
                         
                         <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
@@ -44,39 +43,19 @@ const Footer = () => {
                         </LinkRoll>
                     </div>
 
-
-                    <div className="col">
-                        <h3>LOCATIONS</h3>
-                        <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
-                        <Link to='/north-citrus'><p>North Citus, Los Angeles</p></Link>
-                        </LinkRoll>
-
-                        <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
-                        <Link to='/north-detroit'><p>North Detroit, Los Angeles</p></Link>
-                        </LinkRoll>
-
-                        <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
-                        <Link to='/huntington-beach'><p>Huntington Beach,California</p></Link>
-                        </LinkRoll>
-
-                        <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
-                        <Link to='/west-hollywood'><p>West Hollywood, California</p></Link>
-                        </LinkRoll>
-
-                        <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
-                        <Link to='/venice'><p>Venice, California</p></Link>
-                        </LinkRoll>
+                    <div className="footer-col">
+                        <h3>Locations</h3>
+                        <p>Orange County</p>
+                        <p>Ventura County</p>
+                        <p>San Diego County</p>
                     </div>
 
 
-                    <form>
-                        <h3>Follow Us:</h3>
-                        <div className="social-group">
-                            <FiInstagram className='social-icon' />
-                            <FiFacebook className='social-icon' />
-                            <FiLinkedin className='social-icon' />
-                        </div>
-                    </form>
+                    <div className="footer-col">
+                        <h3>Corporate office</h3>
+                        <p>1800 Vine Street, Los Angeles CA 90028</p>
+                    </div>
+
                 </div>
                 <p className='copyright'><p>&copy; 2023 55 SILVER. ALL RIGHTS RESERVED.</p></p>
 

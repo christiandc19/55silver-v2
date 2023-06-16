@@ -14,7 +14,7 @@
   .mission:before {
     content: '';
     position: absolute;
-    background: linear-gradient(to top, #4b919456, #29363656), url('../../assets/menu-bg-mission.jpg') no-repeat center center/cover;
+    background: linear-gradient(to top, #11111156, #191a1a56), url('../../assets/menu-bg-mission.jpg') no-repeat center top/cover;
     height: 100%;
     width: 100%;
     z-index: -1;
