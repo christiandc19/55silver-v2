@@ -45,7 +45,7 @@ const Navbar = () => {
         <>
             <Topbar />
 
-        <div name='top' className='navbar'>
+        <div className='navbar'>
             <div className="navbar-container">
                 
                  <div className="navbar-logo">
@@ -71,6 +71,7 @@ const Navbar = () => {
 
                     <li><Link to='/about'>ABOUT US</Link> </li>
 
+                    <li><Link to='/career'>Career</Link></li>
 
                     <li><Link to='/contact'>Contact</Link></li>
                 </ul>

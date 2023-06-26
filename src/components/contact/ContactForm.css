@@ -136,11 +136,9 @@ input {
 
   @media screen and (max-width: 940px) {
     .get_form_inner {
-        margin: 2rem 1rem 2rem 1rem;
+        margin: 2rem 1rem;
       }
 
-      iframe {
-        display: none;
-      }
+
     }
   
