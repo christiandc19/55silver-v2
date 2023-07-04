@@ -1,23 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
 
 .contact-container {
-  width: 100%;
+  width: 90%;
   height: auto;
-  position: relative;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
 }
 
 .contact-container:before {
   content: '';
   position: absolute;
   background: url('../../assets/bg.jpg') no-repeat center center/cover;
-  height: 50%;
+  height: 100%;
   width: 100%;
   z-index: -1;
-  top: 25%;
-  opacity: 0.08;
+  opacity: 0.015;
 }
+
+
+
+
+/* Cards */
+
+.contact-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  padding: 2rem 0 4rem 0;
+}
+
+.contact-card {
+  width: 250px;
+  background-color: #094b8d0a;
+  padding: 1rem;
+}
+
+.contact-cards .contact-card {
+  text-align: center;
+  padding: 1rem;
+}
+
+.contact-cards .contact-card p {
+  font-size: 12px;
+  letter-spacing: 1px;
+  padding: .3rem;
+  color: var(--primary-color);
+  font-weight: 700;
+}
+
+.contact-cards .contact-card-icon a {
+  margin: auto;
+  font-size: 18px;
+  font-family: 'Playfair Display', serif;
+  color: rgb(20, 19, 19);
+}
+
+.contact-cards .contact-card h3 {
+  color: rgb(204, 155, 29);
+  font-size: 2rem;
+}
+
+.contact-cards .contact-card h5 {
+  color: rgb(82, 75, 75);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .get_form_inner {
   display: block;
@@ -94,31 +153,6 @@ input[type="submit"]:hover {
   color: #fff;
 }
 
-.contact-cards-container {
-  flex-wrap: wrap;
-  width: 330px;
-}
-
-.get_form_inner2 {
-  display: block;
-  width: 300px;
-  height: 150px;
-  padding: 2rem 1rem;
-  background: #fff;
-  box-shadow: -4px -2px 20px -7px #717477;
-  margin: 4rem 1rem 1rem 1rem;
-}
-
-.get_form_inner2  h2 {
-  color: var(--primary-color);
-  text-align: center;
-  }
-  
-  .get_form_inner2 p, .get_form_inner2 a {
-  color: rgb(39, 38, 38);
-  text-align: center;
-  margin: 1rem auto;
-  }
 
   .hidden {
     display: none;
@@ -143,3 +177,9 @@ input[type="submit"]:hover {
     }
   }
 
+
+  @media screen and (max-width: 700px) {
+    .contact-card {
+      width: 200px;
+    }
+  }

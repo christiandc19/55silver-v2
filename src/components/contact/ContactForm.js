@@ -1,9 +1,13 @@
 import React, { useRef } from "react";
+// import { BsFillPinMapFill } from 'react-icons/bs';
+// import { AiOutlinePhone } from 'react-icons/ai';
+// import { AiOutlineMail } from 'react-icons/ai';
+import { ImOffice } from 'react-icons/im';
+import { GiBrain } from 'react-icons/gi';
+import { MdAlternateEmail } from 'react-icons/md';
 import { BsFillPinMapFill } from 'react-icons/bs';
-import { AiOutlinePhone } from 'react-icons/ai';
-import { AiOutlineMail } from 'react-icons/ai';
 
-import Fade from 'react-reveal/Fade';
+// import Fade from 'react-reveal/Fade';
 
 import './ContactForm.css';
 import emailjs from 'emailjs-com'
@@ -40,15 +44,21 @@ const ContactForm = () => {
     return (
         <>
 
-<section className="contact-container">
+<section className="contact-container container">
 
-<Fade left>
+
+
+
+{/* <Fade left>
 <div className="contact-cards-container">
     
     <div class="get_form_inner2">
             <h2>CALL US</h2>
-            <p><AiOutlinePhone /><a href="tel:3105267505">  +1 (310) 526-7505</a></p>
-            <p><AiOutlinePhone /><a href="tel:3236433171">  +1 (323) 643-3171</a></p>
+              <div className="phone">
+                <br/>
+                Corporate Office <p><AiOutlinePhone /><a href="tel:3105267505">  +1 (310) 526-7505</a></p>
+                <p><AiOutlinePhone /><a href="tel:3236433171">  +1 (323) 643-3171</a></p>
+              </div>
     </div>
 
     <div class="get_form_inner2">
@@ -62,7 +72,10 @@ const ContactForm = () => {
     </div>
 
 </div>
-</Fade>
+</Fade> */}
+
+
+
 
 
           <div class="get_form_inner">
@@ -90,11 +103,52 @@ const ContactForm = () => {
               </div>
 
 
-
-
-
             </form>
 </div>
+
+
+
+<div className="contact-cards">
+
+    <div className="contact-card">
+        <div className="contact-card-icon">
+          <h3><ImOffice /></h3> 
+          <p>CORPORATE OFFICE</p>
+          <a href="tel:3105267505">  (310) 526-7505</a>
+        </div>
+    </div>
+
+    <div className="contact-card">
+        <div className="contact-card-icon">
+          <h3><GiBrain /></h3> 
+          <p>SOBER LIVING</p>
+          <a href="tel:3236433171">  (323) 643-3171</a>
+        </div>
+    </div>
+
+    <div className="contact-card">
+        <div className="contact-card-icon">
+          <h3><MdAlternateEmail /></h3> 
+          <p>EMAIL</p>
+          <h5>info@55silver.biz</h5>
+        </div>
+    </div>
+
+    <div className="contact-card">
+        <div className="contact-card-icon">
+          <h3><BsFillPinMapFill /></h3> 
+          <p>LOCATION</p>
+          <h5>1800 Vine Street, Los Angeles CA 90028</h5>
+        </div>
+    </div>
+
+
+
+</div>
+
+
+
+
 
 </section>
  
