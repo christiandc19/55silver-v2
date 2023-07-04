@@ -5,7 +5,6 @@ import { AiOutlineMail } from 'react-icons/ai';
 
 import Fade from 'react-reveal/Fade';
 
-
 import './ContactForm.css';
 import emailjs from 'emailjs-com'
 
@@ -17,8 +16,18 @@ const ContactForm = () => {
         e.preventDefault();
 
 
+
+                // Popup message after send button is clicked
+                const feedbackEl = document.querySelector(".feedback");
+                feedbackEl.setAttribute("class", "feedback");
+                setTimeout(function() {
+                feedbackEl.setAttribute("class", "feedback hidden");
+                }, 4000);
+        
+        
+
         //    Service Id        Template Id                 Public Key (Account Tab) 
-        emailjs.sendForm('service_9v2gipl', 'template_rxc8sbg', form.current, 'Rj5e7bWJla-kOEL0H')
+        emailjs.sendForm('service_hsunksm', 'template_rxc8sbg', form.current, 'Rj5e7bWJla-kOEL0H')
             .then((result) => {
                 console.log(result.text);
             }, (error) => {
@@ -38,19 +47,18 @@ const ContactForm = () => {
     
     <div class="get_form_inner2">
             <h2>CALL US</h2>
-            <p><AiOutlinePhone /><a href="tel:3235792196"> +1 (310) 526-7505</a></p>
-            <p><AiOutlinePhone /><a href="tel:3236433171"> +1 (323) 643-3171</a></p>
-
+            <p><AiOutlinePhone /><a href="tel:3105267505">  +1 (310) 526-7505</a></p>
+            <p><AiOutlinePhone /><a href="tel:3236433171">  +1 (323) 643-3171</a></p>
     </div>
 
     <div class="get_form_inner2">
             <h2>EMAIL</h2>
-            <p><AiOutlineMail /> info@55silver.biz  </p><br />
+            <p><AiOutlineMail />  info@55silver.biz  </p><br />
     </div>
 
     <div class="get_form_inner2">
             <h2>LOCATION</h2>
-            <p><BsFillPinMapFill /> 1800 Vine Street, Los Angeles CA 90028, US</p>
+            <p><BsFillPinMapFill /> 1800 Vine Street, Los Angeles CA 90028</p>
     </div>
 
 </div>
@@ -71,9 +79,20 @@ const ContactForm = () => {
 
               </div>
               <div>
-                <textarea name="message" placeholder="How can we help?" cols="30" rows="8" required></textarea>
+                <textarea name="message" placeholder="How can we help?" cols="50" rows="8" required></textarea>
+
                 <input type="submit" value="Submit" />
+
+                <div className="textarea2 feedback hidden">
+              <textarea name="message2" cols="30" rows="3" required>Message Sent to 55 Silver!</textarea>
               </div>
+
+              </div>
+
+
+
+
+
             </form>
 </div>
 
