@@ -19,7 +19,7 @@ const Topbar = () => {
                 </div>
 
                 <div className='number bar-box3'>
-                    <p><span><AiOutlinePhone />&nbsp;</span> <a href="tel:3235792196"> +1 (310) 526-7505 </a></p>
+                    <p><span><AiOutlinePhone />&nbsp;</span> <a href="tel:3236433171"> +1 (323) 643-3171 </a></p>
                 </div>
 
             </div>

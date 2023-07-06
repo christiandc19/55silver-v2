@@ -1,7 +1,7 @@
 import React from 'react'
 import './AboutSection.css'
 // import Fade from 'react-reveal/Fade';
-import Contact2 from '../contact/Contact2'
+import ContactForm from '../contact/ContactForm'
 import { BsCheckLg } from "react-icons/bs";
 
 import MissionSection1 from '../../assets/missionSection1.jpg'
@@ -41,7 +41,7 @@ const AboutSection = () => {
 
 
 
-        <Contact2 />
+        <ContactForm />
 
 </>
     )
