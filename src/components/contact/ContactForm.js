@@ -122,7 +122,7 @@ const ContactForm = () => {
         <div className="contact-card-icon">
           <h3><GiBrain /></h3> 
           <p>SOBER LIVING</p>
-          <a href="tel:3236433171">  (323) 643-3171</a>
+          <a href="tel:2135844445">  (213) 584-4445</a>
         </div>
     </div>
 
