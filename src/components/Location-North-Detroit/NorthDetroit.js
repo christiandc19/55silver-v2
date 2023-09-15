@@ -9,7 +9,7 @@ const NorthDetroit = () => {
 
                 <div className="NorthDetroit-content">
                     <Fade top>
-                    <h1>NORTH DETROIT, LOS ANGELES</h1>
+                    <h1>North Detroit, Los Angeles</h1>
                     </Fade>
             </div>
         </div>

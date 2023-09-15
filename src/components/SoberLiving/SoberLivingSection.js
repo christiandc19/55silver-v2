@@ -145,7 +145,7 @@ const SoberLivingSection = () => {
       <BsCheckLg />
     </div>
     <div>
-      <p>SAFE ENVIRONMENT - Many people who are new to recovery do not have a home or safe place to go when their treatment is over. Because of this, sober living can be lifesaving. </p> <br />
+      <p>Safe and Drug-Free Environment: Many people who are new to recovery do not have a home or safe place to go when their treatment is over. Because of this, sober living can be lifesaving. Sober living homes have strict rules against substance use, ensuring a safe and drug-free living space conducive to recovery. </p> <br />
     </div>
     </Fade>
   </div>
@@ -157,7 +157,7 @@ const SoberLivingSection = () => {
     </div>
     <div>
       <p>
-      CONSTANT SUPPORT — They live with others who share the same goal of staying sober. As a result, roommates become a source of support.
+      Access to Resources: — Our Los Angeles Sober Living Home offers a wealth of resources for addiction recovery, including support groups, therapy options, and healthcare facilities.
       </p> <br />
     </div>
     </Fade>
@@ -170,7 +170,20 @@ const SoberLivingSection = () => {
     </div>
     <div>
       <p>
-        CONTINUED TREATMENT — Going to outpatient treatment additionally helps build on lessons learned in previous treatment.
+      Transitional Support: — We offer assistance with job searches, resume building, and interview preparation, helping residents transition to independent living.
+      </p><br />
+    </div>
+  </Fade>
+  </div>
+
+  <div className="checklist">
+  <Fade top>
+    <div className="soberLivingSection-icon">
+      <BsCheckLg />
+    </div>
+    <div>
+      <p>
+        Aftercare Support: — 55 Silver offers a wide range of aftercare programs and support groups to help individuals maintain their recovery and continue their progress even after leaving the sober living environment.
       </p><br />
     </div>
   </Fade>

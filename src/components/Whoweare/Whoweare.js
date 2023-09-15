@@ -29,14 +29,63 @@ const Whoweare = () => {
             </Fade>
 
             <br /> <br />
-            <div className="checklist">
 
+
+
+            <div className="checklist">
             <Fade top>
               <div className="homeSection2-icon">
                 <BsCheckLg />
               </div>
               <div>
                 <p>
+                <b>Prime Location: </b>Situated in Los Angeles, our residents have access to a wide range of opportunities for personal growth, employment, education, and recreation.
+                </p>
+              </div>
+            </Fade>
+            </div>
+            <br />
+
+
+            <div className="checklist">
+            <Fade top>
+              <div className="homeSection2-icon">
+                <BsCheckLg />
+              </div>
+              <div>
+                <p>
+                <b>Professional Guidance: </b>Our team assists in resume building, job search strategies, and interview preparation to support residents in their pursuit of meaningful employment.
+                </p>
+              </div>
+            </Fade>
+            </div>
+            <br />
+
+
+
+            <div className="checklist">
+            <Fade top>
+              <div className="homeSection2-icon">
+                <BsCheckLg />
+              </div>
+              <div>
+                <p>
+                <b>Personalized Support: </b>Every resident is unique. Our experienced team tailors support to individual needs, providing resources for relapse prevention, life skills, and vocational development.
+                </p>
+              </div>
+            </Fade>
+            </div>
+            <br />
+
+
+
+            <div className="checklist">
+            <Fade top>
+              <div className="homeSection2-icon">
+                <BsCheckLg />
+              </div>
+              <div>
+                <p><b>Support Team: </b>
                 Skilled, professional, and friendly staff with years of experience mentoring and working in the recovery field
                 </p>
               </div>
@@ -44,13 +93,15 @@ const Whoweare = () => {
             </div>
             <br />
 
+
+
             <div className="checklist">
             <Fade top>
               <div className="homeSection2-icon">
                 <BsCheckLg />
               </div>
               <div>
-                <p>A supportive, professional drug and alcohol free environment</p>
+                <p><b>Drug Free Environment: </b>A supportive, professional drug and alcohol free environment</p>
               </div>
               </Fade>
 
@@ -63,7 +114,7 @@ const Whoweare = () => {
               </div>
               <div>
                 <p>
-                All amenities for a sober living house to make you feel at home
+                <b>Employment Assistance:: </b>Support in job searching, resume building, interview preparation, and connecting with potential employers.
                 </p>
               </div>
               </Fade>

@@ -17,7 +17,13 @@
   align-items: center;
 }
 
+.navbar-logo {
+  width: 200px;
+  z-index: 2;
+}
+
 .navbar-logo img {
+  width: 100%;
   padding: 10px;
 }
 

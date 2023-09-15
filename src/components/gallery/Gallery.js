@@ -30,7 +30,7 @@ const Cards = () => {
 
             <div className="cards-header container">
                 <h1>CHOOSE THE RIGHT HOME</h1>
-                <p>Staying at our sober living housing allows you to navigate your recovery at your own pace in a safe, structured environment. </p>
+                <p>Staying at our sober living housing allows you to navigate your recovery at your own pace in a safe, structured environment. Choosing the right sober home is a crucial step in the recovery process.</p>
             </div>
 
 
@@ -129,9 +129,12 @@ const Cards = () => {
     </div>
   </div>
  </div>
-</div>
-  
 
+            <div className="cards-header container">
+                <p>Take your time in making this decision. Visit the sober homes you're considering, ask questions, and gather as much information as you can. Ultimately, choose the one that aligns best with your recovery goals, preferences, and needs.</p>
+            </div>
+
+</div>
 </div>
 
     </>

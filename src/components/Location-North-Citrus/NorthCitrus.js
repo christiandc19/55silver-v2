@@ -9,7 +9,7 @@ const NorthCitrus = () => {
         <div className='NorthCitrus submenu'>
                 <div className="NorthCitrus-content">
                     <Fade top>
-                    <h1>NORTH CITRUS, LOS ANGELES</h1>
+                    <h1>North Citrus, Los Angeles</h1>
                     </Fade>
             </div>
         </div>

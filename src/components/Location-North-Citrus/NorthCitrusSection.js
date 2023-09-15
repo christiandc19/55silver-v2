@@ -10,20 +10,35 @@ const NorthCitrusSection = () => {
   return (
 <>
 
+<div className='bg'>
+
+
 <div className="NorthCitrus-section-header container">
-                <h1>LOS ANGELES - NORTH CITRUS</h1><br/>
-                <p>Stay with us and enjoy a guided approach to treatment recovery just off Melrose Ave, only a few minutes from great restaurants in Wilshire, shopping at The Grove, hiking in the canyons, and the allure of all that Hollywood has to offer.
-                </p>
-                <h2>Retreat</h2>
+                <h1>Embrace a Fresh Start at Our Los Angeles Sober Living House</h1><br/>
 </div>
 
 
+<div className='north-citrus-flex container'>
+
+    <div className='north-citrus-left'>
+        <img src="https://55silver.s3.us-west-1.amazonaws.com/55silver_medias/citrus-retreat2-min.png"  alt="Retreat" loading="lazy"/>
+    </div>
+
+    <div className='north-citrus-right'>
+      <p>Welcome to our LOS ANGELES - NORTH CITRUS sober living home, a haven of hope and support nestled in the heart of vibrant Los Angeles. We understand that the journey to recovery is unique for each individual, which is why we offer a warm and nurturing environment where residents can rebuild their lives and rediscover their potential.
+                </p>
+      <h5>Thrive in Sobriety at our Los Angeles Sober Living Home</h5>
+        <p>Stay with us and enjoy a guided approach to treatment recovery just off Melrose Ave, only a few minutes from great restaurants in Wilshire, shopping at The Grove, hiking in the canyons, and the allure of all that Hollywood has to offer.<br/><br/>At 55 Silver, we understand that the path to recovery is a personal and unique one. Our mission is to provide a safe and inclusive space where individuals can transition from addiction to a purposeful, substance-free life. With a focus on accountability, personal growth, and holistic well-being, we guide residents towards a future filled with promise.</p>
+    </div>
+
+</div>
+
+
+<div className="NorthCitrus-section-header container">
+                <h2>Retreat</h2>
+</div>
+
               <div className='homes container'>
-                  <Fade top>
-                    <div className='thumbnail'>
-                        <img src="https://55silver.s3.us-west-1.amazonaws.com/55silver_medias/citrus-retreat2-min.png"  alt="Retreat" loading="lazy"/>
-                    </div>
-                    </Fade>
 
                   <Fade top>
                     <div className='thumbnail'>
@@ -189,6 +204,10 @@ const NorthCitrusSection = () => {
             <h1>TALK TO SOMEONE AT OUR NORTH CITRUS HOME TODAY!</h1>
             <p>Our Support team is available 24 hours a day 7 Days a week.</p>
         </div>
+
+
+</div>
+
 <ContactForm />
 
     </>

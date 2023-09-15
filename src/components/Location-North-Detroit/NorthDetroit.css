@@ -27,16 +27,17 @@
 .NorthDetroit .NorthDetroit-content {
     display: block;
     position: absolute;
-    top: 40%;
+    bottom: 20%;
     padding: 1rem;
     text-align: center;
 
 }
 
 .NorthDetroit h1 {
-    font-size: 3rem;
-    font-family: 'Montserrat', sans-serif;
+    font-size: 4rem;
+    font-family: 'Playfair Display', serif;    
     color: white;
+    letter-spacing: 2px;
 }
 
 .NorthDetroit h3 {
