@@ -65,9 +65,9 @@
 	background-size: cover;
 }
 
-.image1 { background: linear-gradient(to top, #4b919456, #29363656), url('../../assets/slider1.jpg')no-repeat center top/cover; }
+.image1 { background: linear-gradient(to top, #4b919456, #29363656), url('../../assets/slider1.webp')no-repeat center top/cover; }
 
-.image2 { background: linear-gradient(to top, #4b919456, #29363656), url('../../assets/slider2.jpg')no-repeat center center/cover; }
+.image2 { background: linear-gradient(to top, #4b919456, #29363656), url('../../assets/slider2.webp')no-repeat center center/cover; }
 
 
 /* animation styles */

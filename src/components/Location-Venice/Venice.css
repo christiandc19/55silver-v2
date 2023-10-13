@@ -11,7 +11,7 @@
   .Venice:before {
     content: '';
     position: absolute;
-    background: url('../../assets/venice-retreat1.png') no-repeat center top/cover;
+    background: url('../../assets/venice-retreat1.webp') no-repeat center top/cover;
     height: 80vh;
     width: 100%;
     z-index: -1;

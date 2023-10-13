@@ -3,7 +3,7 @@ import './SoberLivingSection.css'
 
 import Fade from 'react-reveal/Fade';
 import { BsCheckLg } from "react-icons/bs";
-import WhatWeDoImg1 from '../../assets/treatment-1.jpg'
+import WhatWeDoImg1 from '../../assets/treatment-1.webp'
 import WhatWeDoImg2 from '../../assets/treatment-2.jpg'
 import WhatWeDoImg3 from '../../assets/treatment-3.jpg'
 

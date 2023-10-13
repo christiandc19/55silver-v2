@@ -134,7 +134,7 @@ const WestHollywoodSection = () => {
               <div className='homes container'>
                 <Fade top>
                   <div className='thumbnail'>
-                    <img src="https://55silver.s3.us-west-1.amazonaws.com/55silver_medias/hollywood-gather1-min.png" alt="Gather" loading="lazy"/>
+                    <img src="https://55silver.s3.us-west-1.amazonaws.com/55silver_medias/hollywood-gather1-min.we" alt="Gather" loading="lazy"/>
                   </div>
               </Fade>
 

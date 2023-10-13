@@ -1,12 +1,9 @@
 import React from 'react'
 import './AboutSection.css'
-// import Fade from 'react-reveal/Fade';
 import ContactForm from '../contact/ContactForm'
 import { BsCheckLg } from "react-icons/bs";
 
-import MissionSection1 from '../../assets/missionSection1.jpg'
-// import Staff from '../../assets/staff.jpg'
-// import Clinic from '../../assets/clinic.jpg'
+import MissionSection1 from '../../assets/missionSection1.webp'
 
 
 
