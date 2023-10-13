@@ -14,11 +14,10 @@
 .hero-caption {
   position: absolute;
   z-index: 5;
-  top: 35%;
+  bottom: 10%;
   right: 3%;
   padding: 1rem;
   width: 50%;
-
 }
 
 .hero-caption span {
@@ -104,8 +103,13 @@
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 450px) {
   .hero-caption h1 {
-    font-size: 2.5rem;
+    font-size: 2rem;
+    line-height: 2.5rem;
+  }
+
+  .hero-caption h2 {
+    font-size: 1rem;
   }
 }
